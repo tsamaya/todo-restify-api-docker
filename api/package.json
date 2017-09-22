@@ -1,0 +1,31 @@
+{
+  "name": "todo-restify-api",
+  "version": "1.0.0",
+  "description": "To-Do API With Node and Restify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint server.js lib/**/*.js",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan-winston-adapter": "^0.2.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.12",
+    "mongoose-api-query": "^0.1.1-pre",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^6.0.1",
+    "restify-errors": "^5.0.0",
+    "restify-plugins": "^1.6.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "nodemon": "^1.12.1"
+  }
+}
